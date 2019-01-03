@@ -3,8 +3,7 @@
   "alias": "infinity",
   "version": 2,
   "builds": [
-    { "src": "next.config.js", "use": "@now/next" },
-    { "src": "server.js", "use": "@now/node" }
+    { "src": "package.json", "use": "@now/next@canary" }
   ],
   "env": {
     "NODE_ENV": "production",
