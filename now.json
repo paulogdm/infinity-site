@@ -9,7 +9,7 @@
   "routes": [
     {"src": "^/static/(.+)$", "dest": "/static/$1"},
     {"src": "^/service-worker.js$", "dest": "/.next/service-worker.js"},
-    {"src": "^/(.*)$", "dest": "/$1"},
+    {"src": "^/(.*)$", "dest": "/$1"}
   ],
   "env": {
     "NODE_ENV": "production",
